@@ -150,19 +150,19 @@ export default function AboutPage() {
             </div>
 
             <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-[#24201D] leading-[1.12]">
-              Hi there! I'm <span className="text-[#B87538]">Kerrie Escobar</span>.
+              Kerrie Escobar: <span className="text-[#B87538]">Furniture Conservator</span> &amp; Woven Cane Specialist
             </h1>
 
             <p className="font-serif text-xl sm:text-2xl text-[#24201D] italic leading-snug">
-              Furniture Conservator &amp; Woven Fiber Specialist with 15 Years of Workshop Experience.
+              Independent Restorer with Continuous Workshop Bench Practice Since 2011.
             </p>
 
             <p className="text-sm sm:text-base text-[#645E57] leading-relaxed font-sans max-w-2xl">
-              I have spent the last decade and a half at my workbench examining how natural plant vines, especially tropical rattan, steamed willow, and woven paper cord, hold up over decades of daily use. 
+              Kerrie Escobar is an independent furniture conservator and natural fiber specialist based in Oregon, Pacific Northwest. Practicing continuously at her workshop bench since 2011, she is dedicated to the non-destructive preservation of historic wicker, tropical Calamus rattan, and traditional woven cane furniture.
             </p>
 
             <p className="text-sm sm:text-base text-[#645E57] leading-relaxed font-sans max-w-2xl">
-              I created this independent care journal to share gentle, non-destructive restoration techniques with homeowners, thrifters, and collectors. My mission is simple: to help you protect and revive your cherished woven furniture without synthetic chemicals or toxic aerosol sprays.
+              Trained in traditional English 7-step caning and Danish cord lacing, she specializes in plant-based hydration formulas that preserve antique structural flexibility without synthetic clear-coats. Through this open care journal, she publishes rigorously bench-tested restoration tutorials, preservation notes, and diagnostic guides for collectors, thrifters, and furniture caretakers worldwide.
             </p>
 
             {/* CTAs */}
@@ -186,7 +186,7 @@ export default function AboutPage() {
             {/* Trust Badges */}
             <div className="pt-4 flex flex-wrap items-center gap-4 sm:gap-6 text-xs text-[#645E57] font-medium">
               <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#FAF2E9] border border-[#E8D9C8]">
-                <span className="w-1.5 h-1.5 rounded-full bg-[#5B6E58]" /> 15+ Years Active Bench
+                <span className="w-1.5 h-1.5 rounded-full bg-[#5B6E58]" /> Active Bench Since 2011
               </span>
               <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#FAF2E9] border border-[#E8D9C8]">
                 <span className="w-1.5 h-1.5 rounded-full bg-[#5B6E58]" /> 100% Non-Toxic Recipes
@@ -230,6 +230,64 @@ export default function AboutPage() {
 
         </div>
       </section>
+
+      {/* ------------------------------------------------------------- */}
+      {/* 1.5. CONSERVATOR PROFILE & ATELIER FACT SHEET                 */}
+      {/* ------------------------------------------------------------- */}
+      <Reveal as="section" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="bg-white rounded-2xl border border-[#E8E2D8] p-8 sm:p-12 shadow-2xs space-y-6">
+          <div className="max-w-2xl space-y-1">
+            <span className="text-xs font-semibold uppercase tracking-wider text-[#B87538] block">
+              Conservator Profile &amp; Atelier Standards
+            </span>
+            <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#24201D]">
+              Workshop Fact Sheet &amp; Verification Matrix
+            </h2>
+            <p className="text-xs sm:text-sm text-[#645E57]">
+              Essential biographical credentials, material specializations, and bench principles.
+            </p>
+          </div>
+
+          <div className="overflow-x-auto">
+            <table className="w-full text-left text-xs sm:text-sm border-collapse">
+              <tbody>
+                <tr className="border-b border-[#F4EFE6]">
+                  <td className="py-3.5 pr-4 font-semibold text-[#24201D] w-1/3">Full Identity</td>
+                  <td className="py-3.5 text-[#645E57]">Kerrie Escobar</td>
+                </tr>
+                <tr className="border-b border-[#F4EFE6]">
+                  <td className="py-3.5 pr-4 font-semibold text-[#24201D]">Primary Discipline</td>
+                  <td className="py-3.5 text-[#645E57]">Furniture Conservator &amp; Woven Fiber Specialist</td>
+                </tr>
+                <tr className="border-b border-[#F4EFE6]">
+                  <td className="py-3.5 pr-4 font-semibold text-[#24201D]">Workshop Atelier</td>
+                  <td className="py-3.5 text-[#645E57]">Pacific Northwest Restoration Bench (Oregon, United States)</td>
+                </tr>
+                <tr className="border-b border-[#F4EFE6]">
+                  <td className="py-3.5 pr-4 font-semibold text-[#24201D]">Practice Inception</td>
+                  <td className="py-3.5 text-[#645E57]">Active bench practice since 2011 (Massachusetts Apprenticeship)</td>
+                </tr>
+                <tr className="border-b border-[#F4EFE6]">
+                  <td className="py-3.5 pr-4 font-semibold text-[#24201D]">Specialized Materials</td>
+                  <td className="py-3.5 text-[#645E57]">Tropical Calamus Rattan, Steamed Willow, Traditional English 7-Step Cane, Danish Paper Cord</td>
+                </tr>
+                <tr className="border-b border-[#F4EFE6]">
+                  <td className="py-3.5 pr-4 font-semibold text-[#24201D]">Conservation Philosophy</td>
+                  <td className="py-3.5 text-[#645E57]">Non-destructive botanical hydration (Boiled Linseed Oil 60/40), strictly no synthetic clear-coats</td>
+                </tr>
+                <tr className="border-b border-[#F4EFE6]">
+                  <td className="py-3.5 pr-4 font-semibold text-[#24201D]">Testing Standards</td>
+                  <td className="py-3.5 text-[#645E57]">Empirical 48-hour tensile test trials on vintage cane specimens before publishing guides</td>
+                </tr>
+                <tr>
+                  <td className="py-3.5 pr-4 font-semibold text-[#24201D]">Editorial Transparency</td>
+                  <td className="py-3.5 text-[#645E57]">100% independent community advice, zero corporate sponsorships, zero affiliate kickbacks</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </Reveal>
 
       {/* ------------------------------------------------------------- */}
       {/* 2. FEATURED PUBLICATION SPOTLIGHT                             */}
