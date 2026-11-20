@@ -34,7 +34,7 @@ export default function NotFoundPage() {
           to="/guides"
           className="w-full sm:w-auto px-6 py-2.5 rounded-lg border border-[#E8E2D8] text-[#24201D] text-xs font-semibold hover:bg-[#FAF7F2] transition-colors flex items-center justify-center gap-2"
         >
-          <span>Browse All 7 Guides</span>
+          <span>Browse Care Guides</span>
         </Link>
       </div>
     </div>

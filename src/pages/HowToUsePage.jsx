@@ -140,7 +140,7 @@ export default function HowToUsePage() {
               to="/guides"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-[#B87538] text-white text-xs font-semibold hover:bg-[#965B27] hover:shadow-md hover:-translate-y-0.5 active:translate-y-0 transition-all shadow-xs group"
             >
-              <span>Explore All 7 Care Guides</span>
+              <span>Explore All Care Guides</span>
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>

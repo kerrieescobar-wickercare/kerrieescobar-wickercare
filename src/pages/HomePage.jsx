@@ -73,7 +73,7 @@ export default function HomePage() {
                   <CheckCircle2 className="w-4 h-4 text-[#5B6E58]" /> 100% natural, non-toxic recipes
                 </span>
                 <span className="flex items-center gap-1.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#5B6E58]" /> 7 complete step-by-step guides
+                  <CheckCircle2 className="w-4 h-4 text-[#5B6E58]" /> Comprehensive step-by-step guides
                 </span>
               </div>
             </div>
@@ -133,7 +133,7 @@ export default function HomePage() {
               to="/guides"
               className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#B87538] hover:text-[#965B27] transition-colors group"
             >
-              <span>View All 7 Guides</span>
+              <span>View All Guides</span>
               <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
             </Link>
           </Reveal>
@@ -217,7 +217,7 @@ export default function HomePage() {
               to="/faqs"
               className="text-xs font-semibold text-[#B87538] hover:text-[#965B27] flex items-center gap-1 group"
             >
-              <span>View All 12 FAQs</span>
+              <span>View All FAQs</span>
               <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>

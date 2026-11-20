@@ -171,7 +171,7 @@ export default function AboutPage() {
                 to="/guides"
                 className="px-7 py-3.5 rounded-lg bg-[#B87538] text-white font-semibold text-xs hover:bg-[#965B27] hover:shadow-md hover:-translate-y-0.5 active:translate-y-0 transition-all flex items-center justify-center gap-2 shadow-xs"
               >
-                <span>Explore the 7 Care Guides</span>
+                <span>Explore the Care Guides</span>
                 <ArrowRight className="w-4 h-4" />
               </Link>
 
@@ -281,8 +281,8 @@ export default function AboutPage() {
 
               <div className="grid grid-cols-3 gap-4 pt-3 border-t border-[#E8D9C8] text-xs text-[#24201D]">
                 <div>
-                  <strong className="block font-serif font-bold text-lg text-[#B87538]">7 Guides</strong>
-                  <span className="text-[11px] text-[#645E57]">Step-by-step field tutorials</span>
+                  <strong className="block font-serif font-bold text-lg text-[#B87538]">Field Guides</strong>
+                  <span className="text-[11px] text-[#645E57]">Step-by-step bench tutorials</span>
                 </div>
                 <div>
                   <strong className="block font-serif font-bold text-lg text-[#5B6E58]">100% Gentle</strong>
