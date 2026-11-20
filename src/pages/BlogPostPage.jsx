@@ -66,7 +66,13 @@ export default function BlogPostPage() {
         <div className="bg-[#FAF7F2] p-4 rounded-lg border border-[#E8E2D8] grid grid-cols-2 sm:grid-cols-4 gap-4 text-xs text-[#645E57]">
           <div>
             <span className="text-[11px] text-[#8A837A] block">Author</span>
-            <span className="font-semibold text-[#24201D] block mt-0.5">{guide.author}</span>
+            <Link
+              to="/about"
+              rel="author"
+              className="font-semibold text-[#24201D] hover:text-[#B87538] hover:underline block mt-0.5 transition-colors"
+            >
+              {guide.author}
+            </Link>
           </div>
           <div>
             <span className="text-[11px] text-[#8A837A] block">Time Investment</span>
@@ -158,7 +164,9 @@ export default function BlogPostPage() {
               About the Author
             </span>
             <h4 className="font-serif text-2xl font-bold text-[#24201D]">
-              Kerrie Escobar
+              <Link to="/about" rel="author" className="hover:text-[#B87538] transition-colors">
+                Kerrie Escobar
+              </Link>
             </h4>
             <p className="text-xs sm:text-sm text-[#645E57] leading-relaxed">
               Kerrie is an independent furniture restorer specializing in historic cane, rush, and woven rattan pieces. All tutorials are tested in her private workshop to help homeowners preserve heirloom furnishings.

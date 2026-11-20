@@ -54,7 +54,7 @@ export default function Footer() {
 
             <div className="text-xs text-[#8A8175] space-y-1 pt-1 font-sans">
               <p>Pacific Northwest Workshop Atelier • Consultations Online Worldwide</p>
-              <p>Contact: inquiries@kerrieescobar-wickercare.mystrikingly.com</p>
+              <p>Contact: inquiries@kerrieescobar-wickercare.vercel.app</p>
             </div>
           </div>
 
@@ -129,7 +129,7 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} Kerrie Escobar Wicker Care. All guides and tutorials reserved.
           </p>
           <p>
-            Independent educational resource for natural fiber care • Hosted on Strikingly
+            Independent educational resource for natural fiber care • Hosted on Vercel
           </p>
         </div>
 

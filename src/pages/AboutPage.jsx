@@ -369,11 +369,11 @@ export default function AboutPage() {
               The Restorer's Ethics
             </span>
             <h3 className="font-serif text-2xl sm:text-3xl font-bold text-[#24201D]">
-              Three Guarantees in Every Tutorial
+              Four Atelier Standards in Every Tutorial
             </h3>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="space-y-2">
               <span className="font-serif text-xl font-bold text-[#B87538] block">01 / Reversibility</span>
               <h4 className="font-serif font-bold text-base text-[#24201D]">Never Damage the Wood</h4>
@@ -395,6 +395,14 @@ export default function AboutPage() {
               <h4 className="font-serif font-bold text-base text-[#24201D]">100% Unbiased Advice</h4>
               <p className="text-xs text-[#645E57] leading-relaxed">
                 No sponsored spray paint reviews, affiliate kickbacks, or commercial endorsements. All recipes use affordable staples like boiled linseed oil and pure Castile soap.
+              </p>
+            </div>
+
+            <div className="space-y-2">
+              <span className="font-serif text-xl font-bold text-[#965B27] block">04 / Bench Tested</span>
+              <h4 className="font-serif font-bold text-base text-[#24201D]">48-Hour Specimen Trials</h4>
+              <p className="text-xs text-[#645E57] leading-relaxed">
+                Every cleaning ratio, oil blend, and repair sequence undergoes a 48-hour physical trial on vintage cane samples before being documented in this journal.
               </p>
             </div>
           </div>
